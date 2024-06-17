@@ -1,0 +1,106 @@
+:root{
+  font-family: sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h3, h4, h2, #last-duration{
+  margin-left: 10px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#main-div{
+  position: relative;
+  width: 70%;
+}
+
+aside{
+  position: relative;
+  width: 28%;
+}
+
+#time-div{
+  display: none;
+  justify-content: center;
+}
+
+#time-div button{
+  margin: 2px 5px;
+  border-radius: 15%;
+  border: none;
+  background-color: #d9d7d7;
+  font-size: 12px;
+  padding: 7px;
+}
+
+#time-div button:hover{
+  cursor: pointer;
+}
+
+#stock-description{
+  padding: 30px 10px;
+}
+
+.company-item{
+  border-radius: 15px;
+  background-color: #d9d7d7;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.company-item:hover{
+  cursor: pointer;
+}
+
+.company-list-name{
+  font-weight: bolder;
+  font-size: 19px;
+  margin: 5px 0;
+}
+
+.profit{
+  color: green;
+}
+
+.loss{
+  color: red;
+}
+
+.bluetext{
+  color: blue;
+}
+
+.active-btn{
+  background-color: #aaa2a2 !important;
+}
+
+.stock-des-name{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stock-des-para{
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+#stock-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#peak-value {
+  color: green;
+}
+
+#low-value {
+  color: red;
+}
+

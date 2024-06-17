@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <title>Stock App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Stock App</h1>
+    </header>
+    <main>
+      <div id="main-div">
+        <div id="stock-chart">
+          <div id="stock-header">
+            <div>
+              <h2 id="company-name"></h2>
+              <div id="last-duration"></div>
+            </div>
+            <div id="stock-range-vals">
+              
+            </div>
+          </div>
+          <div id="chart">
+  
+          </div>
+          <div id="time-div">
+            <button id="5y">5y</button>
+            <button id="1y">1y</button>
+            <button id="3mo">3m</button>
+            <button id="1mo" class="active-btn">1m</button>
+          </div>
+        </div>
+        <div id="stock-description">
+          
+        </div>
+      </div>
+      <aside>
+        <h3>Listed Stocks</h3>
+        <div id="company-list">
+
+        </div>
+      </aside>
+    </main>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
